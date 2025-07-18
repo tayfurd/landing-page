@@ -1,0 +1,53 @@
+* {
+    font-family: "Gill Sans", "Helvetica", sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.menu-bar {
+    background-color:#04BF62;
+    height: 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 30px;
+}
+
+.menu-bar .right {
+    display: flex;
+    gap: 3em;
+    margin-right: 3em;
+}
+
+.menu-bar a {
+    text-decoration: none;
+    color: #FDFDFC;
+    font-weight: 600;
+}
+
+.menu-bar .logo {
+    font-weight: 500;
+    font-size: 35px;
+    font-style: italic;
+    margin-left: 3em;
+}
+
+.menu-bar .get-started {
+    background-color: #00b7ff;
+    padding: 12px;
+    color: #FDFDFC;
+    border-radius: 25px;
+}
+
+.menu-bar .right {
+    font-size: 18px;
+}
+
+.get-started:hover {
+    background-color: rgb(0, 179, 250);
+}
+
+/*  gray #D9E0E2 
+    white #FDFDFC
+*/
